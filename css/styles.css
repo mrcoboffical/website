@@ -5701,6 +5701,14 @@ footer .social-icons a:last-child {
   .service-side-nav {
     margin-bottom: 1rem;
   }
+
+  .service-image {
+    height: auto !important;
+    object-fit: cover;
+  }
+  .service-image>img {
+    height: 100%git;
+  }
 }
 
 @media only screen and (min-width: 991px) and (max-width: 1200px) {
