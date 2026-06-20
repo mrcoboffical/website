@@ -2788,8 +2788,7 @@ a.btn-primary {
   font-family: "Open Sans ", sans-serif;
   clear: both;
   position: relative;
-  font-size: 32px;
-  line-height: 42px;
+  font-size: 1rem;
   font-weight: 600;
   margin: 0 0 16px 0;
   color: #ffffff;
@@ -5698,6 +5697,10 @@ footer .social-icons a:last-child {
   #slider_1 .slider-content p {
     font-size: 20px;
     line-height: 25px;
+  }
+
+  #single-service-container .service-side-nav .icon {
+    display: none;
   }
 }
 
