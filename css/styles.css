@@ -2194,7 +2194,7 @@ a.btn-primary {
 
 /*-----  SERVICE LAYOUTS ----*/
 .section-service-bg {
-  background: linear-gradient(0deg, rgba(15, 15, 15, 0.6), rgba(0, 0, 0, 0.6)), url("../images/service_bg.jpg");
+  background: linear-gradient(0deg, rgba(15, 15, 15, 0.6), rgba(0, 0, 0, 0.6)), url("../images/service_bg.webp");
   background-repeat: repeat;
   background-position: center center;
   background-size: cover;
@@ -2348,7 +2348,7 @@ a.btn-primary {
 
 /*-----  PROCESS BLOCK 01 ----*/
 .section-process-bg {
-  background-image: url("../images/process_bg.jpg");
+  background-image: url("../images/process_bg.webp");
   background-repeat: repeat;
   background-position: center center;
   background-size: cover;
@@ -2657,7 +2657,7 @@ a.btn-primary {
 
 /*----- PRICING TABLE LAYOUTS ----*/
 .section-pricing-table-bg {
-  background-image: url("../images/pricing_table_bg.jpg");
+  background-image: url("../images/pricing_table_bg.webp");
   background-repeat: repeat;
   background-position: center center;
   background-size: cover;
@@ -2732,7 +2732,7 @@ a.btn-primary {
 
 /*----- TESTIMONIAL LAYOUTS ----*/
 .section-testimonial-bg {
-  background-image: url("../images/testimonial_bg.jpg");
+  background-image: url("../images/testimonial_bg.webp");
   background-attachment: fixed;
   background-position: 0% 90%;
   background-color: #00000023;
@@ -3089,7 +3089,7 @@ a.btn-primary {
 
 /*----- CTA LAYOUTS ----*/
 .section-cta-bg {
-  background-image: url("../images/cta_bg.jpg");
+  background-image: url("../images/cta_bg.webp");
   background-repeat: repeat;
   background-position: center center;
   background-size: cover;
@@ -3100,7 +3100,7 @@ a.btn-primary {
 
 .section-cta-bg-1 {
   background-color: #f1f5f8;
-  background-image: url("../images/cta_bg_1.jpg");
+  background-image: url("../images/cta_bg_1.webp");
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: contain;
@@ -3145,7 +3145,7 @@ a.btn-primary {
 
 /*----- SECTION APPOINTMENT ----*/
 .section-appointment-bg {
-  background-image: url("../images/appointment_bg.jpg");
+  background-image: url("../images/appointment_bg.webp");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3391,7 +3391,7 @@ a.btn-primary {
 }
 
 .section-logo-bg {
-  background-image: url("../images/counter_bg.jpg");
+  background-image: url("../images/counter_bg.webp");
   background-repeat: no-repeat;
   background-position: 0 70%;
   background-size: cover;
@@ -4342,7 +4342,7 @@ ul.pagination li:last-child {
   background-repeat: no-repeat;
   background-size: cover;
   border: 0px solid #fff;
-  /* background: url("../images/7039053_11769.jpg"); */
+  /* background: url("../images/7039053_11769.webp"); */
 }
 
 .page-header:before {
@@ -4565,7 +4565,7 @@ ul.pagination li:last-child {
 /***********************************************************************************************/
 .section-coming-countdown-bg {
   background: transparent;
-  background-image: url("../images/coming-soon.jpg");
+  background-image: url("../images/coming-soon.webp");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -5067,7 +5067,7 @@ ul.pagination li:last-child {
 /* 12. FOOTER */
 /***********************************************************************************************/
 footer {
-  background-image: url("/images/3265736.jpg");
+  background-image: url("/images/3265736.webp");
   background-repeat: repeat;
   background-position: center center;
   background-size: cover;
@@ -7324,7 +7324,7 @@ ul.side-nav-list>li {
   border: 1px solid #00000023;
   color: #f2f2f2 !important;
   /* background-color: #ab2626aa ; */
-  background-image: url(/images/3265736.jpg);
+  background-image: url(/images/3265736.webp);
   aspect-ratio: 1/1;
   background-size: cover;
   border-radius: 10px;
