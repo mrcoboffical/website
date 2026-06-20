@@ -5663,6 +5663,46 @@ footer .social-icons a:last-child {
   }
 }
 
+@media screen and (max-width: 990px) {
+  
+  #single-service-container .service-side-nav {
+    position: sticky;
+    top: 0;
+    right: 100px;
+    z-index: 1000000;
+  }
+
+  ul.side-nav-list>li, .side-nav-btn
+  {
+    margin-right: .8rem;
+    width: fit-content !important;
+    flex: 0 0;
+  }
+
+  .side-nav-list {
+    flex-wrap: nowrap;
+    flex-direction: row !important;
+    overflow: scroll;
+    scrollbar-width: none;
+  }
+  
+  #single-service-container .service-side-nav .icon {
+    display: none;
+
+  }
+
+  .side-contact {
+    aspect-ratio: auto !important;
+    left: 0;
+    z-index: 10000000;
+    margin-bottom: 1rem;
+  }
+
+  .service-side-nav {
+    margin-bottom: 1rem;
+  }
+}
+
 @media only screen and (min-width: 991px) and (max-width: 1200px) {
   .header-top .icon-box .icon-container {
     font-size: 25px;
@@ -7307,6 +7347,7 @@ ul.side-nav-list>li {
   transition: .5s;
   border-radius: 30px;
   color: #ab2626;
+  overflow: hidden;
 }
 
 .side-nav-btn > .icon > i {

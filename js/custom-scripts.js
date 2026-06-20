@@ -1145,3 +1145,13 @@ jQuery(function ($) {
     });
 
 });
+
+const urlPath = window.location.pathname;
+const sideNavBtns = document.querySelectorAll(".side-nav-list .side-nav-btn");
+[...sideNavBtns].map(item => {
+    const urlFromEle = item.href.substring(item.href.indexOf("/", "7"));
+    console.log(urlFromEle === urlPath)
+    if (urlPath === urlFromEle) {
+        item.classList.add("active")
+    }
+})
